@@ -4,14 +4,7 @@ from ...utils.string_utils import get_shortest_str
 
 
 class PluginObject(BaseModel):
-    """A `PluginObject` is the base object for all plugins.
-    Each Plugin, no matter how customized, must have the
-    following attributes:
-
-    :param authors: A list of the authors of the plugin.
-    :param title: The plugin's title.
-    :param config: The plugin's config
-    """
+    """A `PluginObject` is the base object for all plugins."""
 
     authors: List[str]
     title: str
