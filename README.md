@@ -12,7 +12,7 @@ MyPlugin/
     requirements.txt
     version
 ```
-Additionally, there must be a class in your plugin's `main.py` file that has the same title as the project which also inherits from `PluginObject`. This class should serve as the "entry point" to your plugin. Using the architecture above, `MyPlugin/src/main.py` would have a class titled `MyPlugin` which inherits from the `PluginObject` class found in `coolgame/src/core/ext/plugin.py`.
+Additionally, there must be a class in your plugin's `main.py` file that has the same title as the project which also inherits from `PluginObject`. This class should serve as the "entry point" to your plugin.
 
 For example, assuming we have the plugin structered the same way as the above example:
 ```python
